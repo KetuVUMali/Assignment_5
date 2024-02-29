@@ -1,0 +1,142 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Visiting Card Styles */
+.card-wrapper {
+    position: relative;
+    width: 88.9mm;
+    height: 50.8mm;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.card-background {
+    /* Customize background styling as needed */
+    background-color: #ffffff;
+    height: 100%;
+}
+
+.card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #333;
+}
+
+/* Customize content text styles */
+.name {
+    width: 250px;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 1em;
+    margin-top: 3px;
+}
+
+.company {
+    font-size: 0.8em;
+    margin-top: 3px;
+}
+
+.contact-info {
+    margin-top: 10px;
+}
+
+/* Customize additional contact information styles */
+.phone,
+.email,
+.address {
+    font-size: 0.6em;
+    margin-bottom: 3px;
+    font-family: sans-serif;
+}
+
+
+.left-big{
+    width: 0;
+    height: 0;
+    border-top: 145pt solid #F9961E;
+    border-right: 110pt solid transparent;
+    position: absolute;
+  }
+  .left-small{
+    width: 0;
+    height: 0;
+    border-top: 56pt solid #414143;
+    border-left: 40pt solid transparent;
+    border-right: 45pt solid transparent;
+    position: absolute;
+  }
+  .left-mid{
+    width: 0;
+    height: 0;
+    border-left: 54pt solid #262F38;
+    border-top: 75pt solid transparent;
+    border-bottom: 70pt solid transparent;
+    position: absolute;
+  }
+  .qr{
+    top:90px;
+    left: 30px;
+    position: absolute;
+  }
+  
+.card-background-2 {
+    /* Customize background styling as needed */
+    background-color: #fa8f0d;
+    height: 100%;
+}
+
+  .left-big-2{
+    width: 0;
+    height: 0;
+    border-top: 145pt solid #f19c34;
+    border-left: 110pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+ 
+  .left-small-2{
+    width: 0;
+    height: 0;
+    border-top: 56pt solid #414143;
+    border-left: 45pt solid transparent;
+    border-right: 40pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+  .left-mid-2{
+    width: 0;
+    height: 0;
+    border-right: 54pt solid #262F38;
+    border-top: 75pt solid transparent;
+    border-bottom: 70pt solid transparent;
+    position: absolute;
+    right: 0;
+  }
+  .card-content-2 {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-30%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
